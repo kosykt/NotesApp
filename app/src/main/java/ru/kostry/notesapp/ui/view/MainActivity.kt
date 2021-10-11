@@ -1,4 +1,4 @@
-package ru.kostry.notesapp.ui
+package ru.kostry.notesapp.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
