@@ -16,7 +16,7 @@ interface NoteItemDao {
     suspend fun delete(noteItem: NoteItem)
 
     @Query("SELECT * from item ORDER BY title ASC")
-    fun getItems(): Flow<List<NoteItem>>
+    fun getAllItems(): Flow<List<NoteItem>>
 
     @Query("SELECT * from item WHERE id = :id")
     fun getItem(id: Int): Flow<NoteItem>
